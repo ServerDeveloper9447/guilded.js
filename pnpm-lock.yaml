@@ -8,7 +8,7 @@ importers:
       '@sapphire/eslint-config': 4.3.8
       '@types/chai': 4.3.4
       '@types/mocha': 9.1.1
-      '@types/node': 16.18.3
+      '@types/node': 18.11.16
       '@types/rimraf': 3.0.2
       '@typescript-eslint/eslint-plugin': 5.45.0
       '@typescript-eslint/parser': 5.45.0
@@ -39,7 +39,7 @@ importers:
       '@sapphire/eslint-config': 4.3.8
       '@types/chai': 4.3.4
       '@types/mocha': 9.1.1
-      '@types/node': 16.18.3
+      '@types/node': 18.11.16
       '@types/rimraf': 3.0.2
       '@typescript-eslint/eslint-plugin': 5.45.0_czs5uoqkd3podpy6vgtsxfc7au
       '@typescript-eslint/parser': 5.45.0_hsf322ms6xhhd4b5ne6lb74y4a
@@ -60,7 +60,7 @@ importers:
       prettier: 2.8.0
       pretty-quick: 3.1.3_prettier@2.8.0
       rimraf: 3.0.2
-      ts-node: 10.9.1_fvpuwgkpfe3dm3hnpcpbcxmb3y
+      ts-node: 10.9.1_aiyknkdadu5dzm4pbgdka52ony
       typedoc: 0.23.21_typescript@4.9.3
       typedoc-plugin-remove-references: 0.0.6
       typedoc-plugin-rename-defaults: 0.6.4_typedoc@0.23.21
@@ -94,7 +94,7 @@ importers:
       '@guildedjs/rest': workspace:*
       '@guildedjs/webhook-client': workspace:*
       '@guildedjs/ws': workspace:*
-      '@types/node': 16.18.3
+      '@types/node': 18.11.16
       typed-emitter: 2.1.0
       typescript: 4.9.3
     dependencies:
@@ -105,7 +105,7 @@ importers:
       typed-emitter: 2.1.0
     devDependencies:
       '@guildedjs/guilded-api-typings': link:../guilded-api-typings
-      '@types/node': 16.18.3
+      '@types/node': 18.11.16
       typescript: 4.9.3
 
   packages/rest:
@@ -158,14 +158,14 @@ importers:
   services/proxy:
     specifiers:
       '@guildedjs/rest': workspace:*
-      '@types/node': 16.18.3
+      '@types/node': 18.11.16
       dotenv: ^16.0.3
       typescript: 4.9.3
     dependencies:
       '@guildedjs/rest': link:../../packages/rest
       dotenv: 16.0.3
     devDependencies:
-      '@types/node': 16.18.3
+      '@types/node': 18.11.16
       typescript: 4.9.3
 
 packages:
@@ -751,7 +751,7 @@ packages:
     resolution: {integrity: sha512-l6NQsDDyQUVeoTynNpC9uRvCUint/gSUXQA2euwmTuWGvPY5LSDUu6tkCtJB2SvGQlJQzLaKqcGZP4//7EDveA==}
     dependencies:
       '@types/minimatch': 5.1.2
-      '@types/node': 18.7.23
+      '@types/node': 18.11.16
     dev: true
 
   /@types/is-ci/3.0.0:
@@ -783,7 +783,7 @@ packages:
   /@types/node-fetch/2.6.2:
     resolution: {integrity: sha512-DHqhlq5jeESLy19TYhLakJ07kNumXWjcDdxXsLUMJZ6ue8VZJj4kLPQVE/2mdHh3xZziNF1xppu5lwmS53HR+A==}
     dependencies:
-      '@types/node': 18.7.23
+      '@types/node': 18.11.16
       form-data: 3.0.1
     dev: true
 
@@ -791,12 +791,8 @@ packages:
     resolution: {integrity: sha512-J8xLz7q2OFulZ2cyGTLE1TbbZcjpno7FaN6zdJNrgAdrJ+DZzh/uFR6YrTb4C+nXakvud8Q4+rbhoIWlYQbUFQ==}
     dev: true
 
-  /@types/node/16.18.3:
-    resolution: {integrity: sha512-jh6m0QUhIRcZpNv7Z/rpN+ZWXOicUUQbSoWks7Htkbb9IjFQj4kzcX/xFCkjstCj5flMsN8FiSvt+q+Tcs4Llg==}
-    dev: true
-
-  /@types/node/18.7.23:
-    resolution: {integrity: sha512-DWNcCHolDq0ZKGizjx2DZjR/PqsYwAcYUJmfMWqtVU2MBMG5Mo+xFZrhGId5r/O5HOuMPyQEcM6KUBp5lBZZBg==}
+  /@types/node/18.11.16:
+    resolution: {integrity: sha512-6T7P5bDkRhqRxrQtwj7vru+bWTpelgtcETAZEUSdq0YISKz8WKdoBukQLYQQ6DFHvU9JRsbFq0JH5C51X2ZdnA==}
 
   /@types/normalize-package-data/2.4.1:
     resolution: {integrity: sha512-Gj7cI7z+98M282Tqmp2K5EIsoouUEzbBJhQQzDE3jSIRk6r9gsz0oUokqIUR4u1R3dMHo0pDHM7sNOHyhulypw==}
@@ -810,7 +806,7 @@ packages:
     resolution: {integrity: sha512-F3OznnSLAUxFrCEu/L5PY8+ny8DtcFRjx7fZZ9bycvXRi3KPTRS9HOitGZwvPg0juRhXFWIeKX58cnX5YqLohQ==}
     dependencies:
       '@types/glob': 8.0.0
-      '@types/node': 18.7.23
+      '@types/node': 18.11.16
     dev: true
 
   /@types/semver/6.2.3:
@@ -824,7 +820,7 @@ packages:
   /@types/ws/8.5.3:
     resolution: {integrity: sha512-6YOoWjruKj1uLf3INHH7D3qTXwFfEsg1kf3c0uDdSBJwfa/llkwIjrAGV7j7mVgGNbzTQ3HiHKKDXl6bJPD97w==}
     dependencies:
-      '@types/node': 18.7.23
+      '@types/node': 18.11.16
     dev: false
 
   /@typescript-eslint/eslint-plugin/5.45.0_czs5uoqkd3podpy6vgtsxfc7au:
@@ -3870,7 +3866,7 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
-  /ts-node/10.9.1_fvpuwgkpfe3dm3hnpcpbcxmb3y:
+  /ts-node/10.9.1_aiyknkdadu5dzm4pbgdka52ony:
     resolution: {integrity: sha512-NtVysVPkxxrwFGUUxGYhfux8k78pQB3JqYBXlLRZgdGUqTO5wU/UyHop5p70iEbGhB7q5KmiZiU0Y3KlJrScEw==}
     hasBin: true
     peerDependencies:
@@ -3889,7 +3885,7 @@ packages:
       '@tsconfig/node12': 1.0.11
       '@tsconfig/node14': 1.0.3
       '@tsconfig/node16': 1.0.3
-      '@types/node': 16.18.3
+      '@types/node': 18.11.16
       acorn: 8.8.0
       acorn-walk: 8.2.0
       arg: 4.1.3
