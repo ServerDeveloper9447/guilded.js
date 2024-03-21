@@ -1,6 +1,6 @@
 {
     "name": "guilded.js",
-    "version": "0.23.7",
+    "version": "0.23.9",
     "description": "A Node.js library for the Guilded.gg (https://www.guilded.gg/) API written in TypeScript, usable in either JavaScript or TypeScript projects.",
     "author": "Zaid \"Nico\" <contact@nico.engineer>",
     "license": "MIT",
@@ -9,7 +9,8 @@
     "scripts": {
         "build": "tsc && gen-esm-wrapper . ./dist/index.mjs",
         "build:typecheck": "tsc --noEmit",
-        "prepublishOnly": "rimraf dist/ && rimraf types/ && bun run build"
+        "prepublishOnly": "rimraf dist/ && rimraf types/ && bun run build",
+        "release": "npm publish"
     },
     "devDependencies": {
         "@types/node": "18.16.12",
